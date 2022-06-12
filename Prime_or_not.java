@@ -9,7 +9,7 @@ public class Prime_or_not
       
        if(num==0||num==1)
        {
-           System.out.print(num + " Is Not Prime Number.");
+           System.out.print(num + " Is Not A Prime Number.");
        }
        else
        {
@@ -17,7 +17,7 @@ public class Prime_or_not
            {
                if(num%i==0)
                {
-                   System.out.println(num + " Is Not Prime Number.");
+                   System.out.println(num + " Is Not A Prime Number.");
                    flag=1;
                    break;
                }
